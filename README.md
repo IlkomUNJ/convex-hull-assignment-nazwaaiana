@@ -4,7 +4,7 @@ Name : Nazwa Aiana Putri (1313623016)
 
 # AI usage
 Explain how you use the AI to solve the assignment. Put all ***your used queries*** in this section & what kind of AI are you using. Declare not using AI if you didn't do this.  
-- Saya menggunakan bantuan AI di beberapa bagian saat mengerjakan tugas ini. Pertama, saya sempat mengalami kendala ketika project tidak bisa dijalankan karena muncul error CMake project configuration failed. Untuk masalah itu saya bertanya ke ChatGPT supaya project bisa dijalankan dengan benar. Kedua, saya juga menggunakan AI Gemini untuk memahami bagian algoritma Fast Convex Hull, karena saya bingung dengan logikanya terutama di bagian yang mengatur upper hull dan lower hull. Selain itu, saya juga menanyakan tentang algoritma Slow Convex Hull, khususnya pada bagian kode yang mengecek semua pasangan titik (i, j) dan menentukan kandidat hull dengan variabel allRightOrCollinear.
+- Saya menggunakan bantuan AI di beberapa bagian saat mengerjakan tugas ini. Pertama, saya sempat mengalami kendala ketika project tidak bisa dijalankan karena muncul error CMake project configuration failed. Untuk masalah itu saya bertanya ke ChatGPT supaya project bisa dijalankan dengan benar. Kedua, saya juga menggunakan AI Gemini untuk memahami bagian algoritma Fast Convex Hull, karena saya bingung dengan logikanya terutama di bagian yang mengatur upper hull dan lower hull. Selain itu, saya juga menanyakan tentang algoritma Slow Convex Hull, dll.
 
 Beberapa query yang saya pakai sebagai berikut:
 - Bagaimana solusi dari eror CMake project configuration failed
@@ -14,6 +14,8 @@ Beberapa query yang saya pakai sebagai berikut:
 - Apakah hasil bakal berbeda di setiap komputer meskipun titiknya sama
 - Bagaimana cara memperbaiki error "tidak ada kecocokan operator"
 - Mengapa std::set<QPoint> tidak dapat memasukkan QPoint
+- Mengapa bagian m_points.swap(0, pivotIndex); eror
+- Mengapa bagian p.p() error dari qreal val = (q.y() - p.y()) * (r.x() - q.x()) - (q.x() - p.p()) * (r.y() - q.y());
 
 # Collaboration usage
 Explain how you are ***using others*** to complete the assignment in this section. Are they simply copying, learn the ideas, learn how to adapt the AI or anything involving the process. State the people if any & Please be elaborate. Declare self tought if you solved this by yourself. 
