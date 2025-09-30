@@ -6,7 +6,7 @@ Name : Nazwa Aiana Putri (1313623016)
 Explain how you use the AI to solve the assignment. Put all ***your used queries*** in this section & what kind of AI are you using. Declare not using AI if you didn't do this.  
 - Saya menggunakan bantuan AI di beberapa bagian saat mengerjakan tugas ini. Pertama, saya sempat mengalami kendala ketika project tidak bisa dijalankan karena muncul error CMake project configuration failed. Untuk masalah itu saya bertanya ke ChatGPT supaya project bisa dijalankan dengan benar. Kedua, saya juga menggunakan AI Gemini untuk memahami bagian algoritma Fast Convex Hull, karena saya bingung dengan logikanya terutama di bagian yang mengatur upper hull dan lower hull. Selain itu, saya juga menanyakan tentang algoritma Slow Convex Hull, khususnya pada bagian kode yang mengecek semua pasangan titik (i, j) dan menentukan kandidat hull dengan variabel allRightOrCollinear.
 
-Query yang saya pakai sebagai berikut:
+Beberapa query yang saya pakai sebagai berikut:
 - Bagaimana solusi dari eror CMake project configuration failed
 - Berikan saya langkah-langkah nya untuk CMake project configuration failed
 - Cara kerja algoritma slow convex hull dan fast convex hull
