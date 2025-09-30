@@ -7,59 +7,13 @@ Explain how you use the AI to solve the assignment. Put all ***your used queries
 - Saya menggunakan bantuan AI di beberapa bagian saat mengerjakan tugas ini. Pertama, saya sempat mengalami kendala ketika project tidak bisa dijalankan karena muncul error CMake project configuration failed. Untuk masalah itu saya bertanya ke ChatGPT supaya project bisa dijalankan dengan benar. Kedua, saya juga menggunakan AI Gemini untuk memahami bagian algoritma Fast Convex Hull, karena saya bingung dengan logikanya terutama di bagian yang mengatur upper hull dan lower hull. Selain itu, saya juga menanyakan tentang algoritma Slow Convex Hull, khususnya pada bagian kode yang mengecek semua pasangan titik (i, j) dan menentukan kandidat hull dengan variabel allRightOrCollinear.
 
 Query yang saya pakai sebagai berikut:
-- Slow Convex Hull
-```
-QSet<QPoint> hullCandidates;
-for (int i = 0; i < n; i++) {
-    for (int j = 0; j < n; j++) {
-        if (i == j) continue;
-
-        bool allRightOrCollinear = true;
-
-        for (int k = 0; k < n; k++) {
-            if (k == i || k == j) continue;
-            m_iterations++;
-
-            int orient = orientation(points[i], points[j], points[k]);
-
-            if (orient == 2) {
-                allRightOrCollinear = false;
-                break;
-            }
-        }
-
-        if (allRightOrCollinear) {
-            hullCandidates.insert(points[i]);
-            hullCandidates.insert(points[j]);
-        }
-    }
-}
-```
-
-- Fast Convex HUll
-```
- QVector<QPoint> upperHull;
-    for (int i = 0; i < final_n; ++i) {
-        m_iterations++;
-        while (upperHull.size() >= 2 && orientation(upperHull[upperHull.size()-2], upperHull.last(), P[i]) != 2)
-        {
-            m_iterations++;
-            upperHull.pop_back();
-        }
-        upperHull.push_back(P[i]);
-    }
-
-    QVector<QPoint> lowerHull;
-    for (int i = final_n - 1; i >= 0; --i) {
-        m_iterations++;
-        while (lowerHull.size() >= 2 && orientation(lowerHull[lowerHull.size()-2], lowerHull.last(), P[i]) != 2)
-        {
-            m_iterations++;
-            lowerHull.pop_back();
-        }
-        lowerHull.push_back(P[i]);
-    }
-```
+- Bagaimana solusi dari eror CMake project configuration failed
+- Berikan saya langkah-langkah nya untuk CMake project configuration failed
+- Cara kerja algoritma slow convex hull dan fast convex hull
+- Perbedaan hasil slow convex hull dengan fast convex hull
+- Apakah hasil bakal berbeda di setiap komputer meskipun titiknya sama
+- Bagaimana cara memperbaiki error "tidak ada kecocokan operator"
+- Mengapa std::set<QPoint> tidak dapat memasukkan QPoint
 
 # Collaboration usage
 Explain how you are ***using others*** to complete the assignment in this section. Are they simply copying, learn the ideas, learn how to adapt the AI or anything involving the process. State the people if any & Please be elaborate. Declare self tought if you solved this by yourself. 
