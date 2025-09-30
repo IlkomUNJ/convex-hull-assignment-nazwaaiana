@@ -8,8 +8,8 @@ Explain how you use the AI to solve the assignment. Put all ***your used queries
 
 Query yang saya pakai sebagai berikut:
 - Slow Convex Hull
+```
 QSet<QPoint> hullCandidates;
-
 for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
         if (i == j) continue;
@@ -34,8 +34,10 @@ for (int i = 0; i < n; i++) {
         }
     }
 }
+```
 
 - Fast Convex HUll
+```
  QVector<QPoint> upperHull;
     for (int i = 0; i < final_n; ++i) {
         m_iterations++;
@@ -57,6 +59,7 @@ for (int i = 0; i < n; i++) {
         }
         lowerHull.push_back(P[i]);
     }
+```
 
 # Collaboration usage
 Explain how you are ***using others*** to complete the assignment in this section. Are they simply copying, learn the ideas, learn how to adapt the AI or anything involving the process. State the people if any & Please be elaborate. Declare self tought if you solved this by yourself. 
