@@ -1,9 +1,0 @@
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/Tugass.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/edit_cache.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/rebuild_cache.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/list_install_components.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install/local.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install/strip.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/Tugass_autogen_timestamp_deps.dir
-/home/nazwaaiana/Tugass/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/Tugass_autogen.dir
