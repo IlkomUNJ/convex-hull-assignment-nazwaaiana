@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-de522e04b34110207fa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tugas",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tugas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tugas-Debug-f978acf51713fb04b18b.json",
+					"name" : "tugas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tugas_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tugas_autogen-Debug-2b06fbaa04db8969faf8.json",
+					"name" : "tugas_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tugas_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tugas_autogen_timestamp_deps-Debug-6501e199c7e1e9ae1c5e.json",
+					"name" : "tugas_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nazwaaiana/tugas/build/Desktop_Qt_6_9_2-Debug",
+		"source" : "/home/nazwaaiana/tugas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
